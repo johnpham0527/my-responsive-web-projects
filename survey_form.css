@@ -93,6 +93,7 @@ html {
   
   .category {
       margin-bottom: 1em;
+      padding: 0.25em 1em 0.25em 1em;
   }
 
   .category + .category {
