@@ -86,4 +86,8 @@ html {
     grid-column-start: 1;
     grid-column-end: 13;
   }
+
+  .question {
+      font-weight: bold;
+  }
   
