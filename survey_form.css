@@ -61,14 +61,14 @@ html {
     line-height: 1.5
   }
 
-  #survey-form {
+  .mini-grid {
     display: grid;
-    grid-template-columns: 1fr repeat(11, minmax(0, 1fr));
+    grid-template-columns: 1fr repeat(3, minmax(0, 1fr));
   }
 
-  form h2 {
+  .first-column {
     grid-column-start: 1;
-    grid-column-end: 13;
+    grid-column-end: 1;
   }
 
   .question {
