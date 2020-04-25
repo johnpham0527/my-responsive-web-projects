@@ -50,7 +50,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 880px;
     margin: auto;
   }
   
@@ -79,4 +79,12 @@ html {
       margin-bottom: 1em;
       padding: 0 1.25em 0.4em 1.25em;
       line-height: 1.75em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
   }
