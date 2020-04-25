@@ -96,8 +96,3 @@ html {
       padding: 0 1.25em 0.4em 1.25em;
       line-height: 1.75em;
   }
-
-  .category + .category {
-      margin-bottom: 1.5em;
-  }
-
