@@ -47,7 +47,7 @@ html {
   
   .container {
     color: #2F3040;
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
