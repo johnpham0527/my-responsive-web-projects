@@ -94,3 +94,7 @@ html {
   .category {
       margin-bottom: 1em;
   }
+
+  .category + .category {
+      margin-bottom: 1.5em;
+  }
