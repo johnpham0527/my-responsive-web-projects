@@ -17,28 +17,27 @@
                 <h1 id="title">Customer Satisfaction Survey</h1>
                 <p id="description">How are our programs and services? We would love to hear from you!</p>
                 <form id="survey-form">
-                    <fieldset class="category">
-                        <legend>Personal Information</legend>
-                        <p>
-                        <label id="name-label" for="name">What is your name?</label>
-                        <abbr title="required" aria-label="required">*</abbr> 
-                        <input name="name" id="name" placeholder="Your name" required/>
-                        <br>
-                        <label id="email-label" for="email">What is your email address?</label> 
-                        <input name="email" id="email" type="email" placeholder="Your email address" required/>
-                        <br>
-                        <label id="number-label" for="age">What is your age?</label>
-                        <abbr title="required" aria-label="required">*</abbr> 
-                        <input name="age" id="number" type="number" placeholder="Age" min="0" max="122" required>
-                        <br>
-                        Do you live in Queens? 
-                        <select id="dropdown" name="live-in-Queens">
-                            <option value="yes-Queens">Yes</option>
-                            <option value="no-Queens">No</option>
-                        </select>
-                        </p>
-                    </fieldset>
+                    <h2>Personal Information</h2>
+                    <p>
+                    <label id="name-label" for="name">What is your name?</label>
+                    <abbr title="required" aria-label="required">*</abbr> 
+                    <input name="name" id="name" placeholder="Your name" required/>
+                    <br>
+                    <label id="email-label" for="email">What is your email address?</label> 
+                    <input name="email" id="email" type="email" placeholder="Your email address" required/>
+                    <br>
+                    <label id="number-label" for="age">What is your age?</label>
+                    <abbr title="required" aria-label="required">*</abbr> 
+                    <input name="age" id="number" type="number" placeholder="Age" min="0" max="122" required>
+                    <br>
+                    Do you live in Queens? 
+                    <select id="dropdown" name="live-in-Queens">
+                        <option value="yes-Queens">Yes</option>
+                        <option value="no-Queens">No</option>
+                    </select>
+                    </p>
 
+                    <h2>Programs</h2>
                     <fieldset class="category">
                         <legend>Which types of programs do you attend? Check all that apply.</legend>
                             <input type="checkbox" id="program-children" name="program-children" value="Children">
@@ -54,19 +53,17 @@
                             <label for="program-older-adults">Older Adults</label>
                     </fieldset>
 
-                    <fieldset class="category">
-                        <legend>Final Feedback</legend>
-                        <p>Overall, how satisfied are you with Queens Public Library?<br>
-                            <input type="radio" id="highly-satisfied" value="highly-satisfied" name="radio-buttons"><label for="highly-satisfied">Highly satisfied</label><br>
-                            <input type="radio" id="somewhat-satisfied" value="somewhat-satisfied" name="radio-buttons"><label for="somewhat-satisfied">Somewhat satisfied</label><br>
-                            <input type="radio" id="neither" value="neither" name="radio-buttons"><label for="neither">Neither satisfied nor dissatisfied</label><br>
-                            <input type="radio" id="somewhat-dissatisfied" value="somewhat-dissatisfied" name="radio-buttons"><label for="somewhat-dissatisfied">Somewhat dissatisfied</label><br>
-                            <input type="radio" id="highly-dissatisfied" value="highly-dissatisfied" name="radio-buttons"><label for="highly-dissatisfied">Highly dissatisfied</label>
-                        </p>
-                        <p>Please share any additional feedback.<br>
-                            <textarea name="comment" rows="4" cols="60"></textarea>
-                        </p>
-                    </fieldset>
+                    <h2>Overall Feedback</h2>
+                    <p>Overall, how satisfied are you with Queens Public Library?<br>
+                        <input type="radio" id="highly-satisfied" value="highly-satisfied" name="radio-buttons"><label for="highly-satisfied">Highly satisfied</label><br>
+                        <input type="radio" id="somewhat-satisfied" value="somewhat-satisfied" name="radio-buttons"><label for="somewhat-satisfied">Somewhat satisfied</label><br>
+                        <input type="radio" id="neither" value="neither" name="radio-buttons"><label for="neither">Neither satisfied nor dissatisfied</label><br>
+                        <input type="radio" id="somewhat-dissatisfied" value="somewhat-dissatisfied" name="radio-buttons"><label for="somewhat-dissatisfied">Somewhat dissatisfied</label><br>
+                        <input type="radio" id="highly-dissatisfied" value="highly-dissatisfied" name="radio-buttons"><label for="highly-dissatisfied">Highly dissatisfied</label>
+                    </p>
+                    <p>Please share any additional feedback.<br>
+                        <textarea name="comment" rows="4" cols="60"></textarea>
+                    </p>
 
                     <input type="submit" id="submit" value="Submit">
                 </form>
