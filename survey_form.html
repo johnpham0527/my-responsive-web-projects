@@ -19,16 +19,18 @@
                 <form id="survey-form">
                     <fieldset class="category">
                         <legend>Personal Information</legend>
+                        <p>
                         <label id="name-label" for="name">What is your name?</label>
                         <input name="name" id="name" placeholder="Your name" required/><br>
                         <label id="email-label" for="email">What is your email address?</label><input name="email" id="email" type="email" placeholder="Your email address" required/><br />
                         <label id="number-label" for="age">What is your age?</label>
                         <input name="age" id="number" type="number" placeholder="Age" min="0" max="122" required>
-                        <p>Do you live in Queens?<br>
-                            <select id="dropdown" name="live-in-Queens">
-                                <option value="yes-Queens">Yes</option>
-                                <option value="no-Queens">No</option>
-                            </select>
+                        <br>
+                        Do you live in Queens?
+                        <select id="dropdown" name="live-in-Queens">
+                            <option value="yes-Queens">Yes</option>
+                            <option value="no-Queens">No</option>
+                        </select>
                         </p>
                     </fieldset>
 
