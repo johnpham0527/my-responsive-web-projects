@@ -1,4 +1,12 @@
-@media (max-width 300px) {
+/*** Global Styles ***
+=======================/
+
+
+
+/*** Mobile Styles ***
+======================/
+
+@media (max-width: 300px) {
   html {
     font-size: 75%;
   }
