@@ -36,7 +36,7 @@ header {
     color: #282461;
     grid-column: 1 / 13;
     grid-row: 1 / 1;
-    margin: auto;
+    margin: 90px auto auto auto;
 }
 
 header a {
