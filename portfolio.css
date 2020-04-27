@@ -1,10 +1,121 @@
 /*** Global Styles ***
-=======================/
+=======================*/
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", helvetica, arial, sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+li, p {
+    line-height: 1.5em;
+}
+
+.container > * {
+    padding: 20px;
+}
+.container {
+    color: #2F3040;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+header {
+    background: white;
+    color: #282461;
+    grid-column: 1 / 13;
+    grid-row: 1 / 1;
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #282461;
+}
+
+header a:visited {
+    color: #282461;
+}
+
+main {
+    background: #F7F8FA;
+    grid-column: 4 / 10;
+}
+
+main h2, main h3 {
+    color: #282461;
+}
+
+.date {
+    font-size: 0.75em;
+}
+
+aside {
+    background: #613524;
+    color: white;
+    grid-column: 10 / 13;
+}
+
+aside h2 {
+    color: #F7F8FA;
+}
+
+nav {
+    background: #282461;
+    color: white;
+    grid-column: 1 / 4;
+}
+
+nav a, aside a {
+    color: white;
+}
+
+nav h2 {
+    color: #F7F8FA;
+}
+
+main, nav, aside {
+    grid-row: 2 / 4;
+}
+
+footer {
+    background: #615424;
+    grid-column: 1 / 13;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+/*** CSS for Projects */
+#project-aside, #project-nav {
+    grid-row: 2 / 2;
+}
+
+#app {
+    grid-row: 3 / 3;
+    grid-column: 1 / 13;
+}
+
+#project-aside {
+    grid-column: 4 / 13;
+}
 
 
 /*** Mobile Styles ***
-======================/
+======================*/
 
 @media (max-width: 300px) {
   html {
