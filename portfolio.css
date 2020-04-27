@@ -127,7 +127,7 @@ footer a {
   height: 100vh;
 }
 
-navbar {
+#navbar {
   position: fixed;
   top: 0;
 }
