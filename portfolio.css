@@ -50,7 +50,7 @@ header a:visited {
 
 main {
     background: #F7F8FA;
-    grid-column: 1 / 13;
+    grid-column: 4 / 10;
 }
 
 main h2, main h3 {
@@ -74,7 +74,8 @@ aside h2 {
 nav {
     background: #282461;
     color: white;
-    grid-column: 1 / 4;
+    grid-column: 1 / 13;
+    text-align: right;
 }
 
 nav a, aside a {
@@ -85,7 +86,7 @@ nav h2 {
     color: #F7F8FA;
 }
 
-main, nav, aside {
+main, aside {
     grid-row: 2 / 4;
 }
 
