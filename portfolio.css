@@ -74,7 +74,6 @@ aside h2 {
 nav {
     background: #282461;
     color: white;
-    grid-column: 1 / 13;
     text-align: right;
 }
 
