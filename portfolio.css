@@ -99,21 +99,6 @@ footer a {
     color: white;
 }
 
-/*** CSS for Projects */
-#project-aside, #project-nav {
-    grid-row: 2 / 2;
-}
-
-#app {
-    grid-row: 3 / 3;
-    grid-column: 1 / 13;
-}
-
-#project-aside {
-    grid-column: 4 / 13;
-}
-
-
 /*** Mobile Styles ***
 ======================*/
 
