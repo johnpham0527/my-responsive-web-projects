@@ -93,6 +93,11 @@ main, aside {
     display: flex;
 }
 
+.project-tile {
+    text-decoration: none;
+    border: 1px solid #282461;
+    padding: 1em;
+}
 
 
 footer {
