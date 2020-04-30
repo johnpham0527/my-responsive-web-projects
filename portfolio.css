@@ -89,7 +89,7 @@ main, aside {
     grid-row: 2 / 4;
 }
 
-#project-container {
+.project-container {
     display: flex;
 }
 
