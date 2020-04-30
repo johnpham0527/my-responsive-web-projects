@@ -89,6 +89,12 @@ main, aside {
     grid-row: 2 / 4;
 }
 
+#project-container {
+    display: flex;
+}
+
+
+
 footer {
     background: #615424;
     grid-column: 1 / 13;
