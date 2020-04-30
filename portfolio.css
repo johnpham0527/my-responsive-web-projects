@@ -97,8 +97,12 @@ main, aside {
     text-decoration: none;
     border: 1px solid #282461;
     padding: 1em;
+    margin-left: 1em;
 }
 
+.project-tile:first-child {
+    margin-left: 0;
+}
 
 footer {
     background: #615424;
