@@ -108,6 +108,7 @@ footer {
     background: #615424;
     grid-column: 1 / 13;
     color: white;
+    height: 5vh;
 }
 
 footer a {
@@ -121,10 +122,6 @@ footer a {
   html {
     font-size: 75%;
   }
-}
-
-#welcome-section {
-  height: 100vh;
 }
 
 #navbar {
