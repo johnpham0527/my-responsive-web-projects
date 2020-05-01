@@ -130,4 +130,9 @@ footer a {
 #navbar {
   position: fixed;
   top: 0;
+
+}
+
+#navbar a {
+    text-decoration: none;
 }
