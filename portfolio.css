@@ -130,7 +130,7 @@ footer a {
 #navbar {
   position: fixed;
   top: 0;
-
+  display: grid;
 }
 
 #navbar a {
