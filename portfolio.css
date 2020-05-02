@@ -90,7 +90,7 @@ main, aside {
 }
 
 .project-container {
-    display: flex;
+    display: grid;
 }
 
 .project-tile {
