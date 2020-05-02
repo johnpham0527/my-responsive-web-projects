@@ -91,14 +91,13 @@ main, aside {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .project-tile {
     text-decoration: none;
     border: 1px solid #282461;
     padding: 1em;
-    margin-left: 1em;
     border-radius: 1em;
 }
 
