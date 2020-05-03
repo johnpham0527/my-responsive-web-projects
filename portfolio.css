@@ -104,9 +104,15 @@ main, aside {
     text-align: center;
 }
 
+.project-tile:hover {
+    border: 1px solid #613524;
+}
+
+
 .project-tile a {
     text-decoration: none;
 }
+
 
 .project-tile img {
     margin-top: 1em;
