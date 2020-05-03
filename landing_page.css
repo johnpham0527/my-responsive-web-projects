@@ -25,8 +25,12 @@
     color: black;
 }
 
-.header {
-    margin-top: 30px;
+main {
+    background-color: #F7F8FA;
+}
+
+footer {
+    background-color: #615424;
 }
 
 @media only screen and (max-width: 600px) {
