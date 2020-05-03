@@ -22,23 +22,29 @@
             
             <main class="flex-container">
                 <h1>Hunters Point Community Library Is Opening!</h1>
-                <div>
+                <article>
                     <video id="video" width="320" height="240" controls>
                         <source src="http://www.john-pham.com/hunterspoint.mp4" type="video/mp4">
                     </video>
-                </div>
-                <div id="kids">Programs for Kids</div>
-                <div id="teens">Programs for Teens</div>
-                <div id="adults">Programs for Adults</div>
-                <div id="olderadults">Programs for Older Adults</div>
+                </article>
+                <article>
+                    <h2>Subscribe for Updates</h2>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input name="email" type="email" id="email" placeholder="Subscribe for updates" />
+                        <input type="submit" id="submit" value="Submit" />
+                    </form>
+                </article>
+                <article>
+                    <h2>Programs for All Ages</h2>
+                    <section id="kids">Programs for Kids</section>
+                    <section id="teens">Programs for Teens</section >
+                    <section id="adults">Programs for Adults</section >
+                    <section id="olderadults">Programs for Older Adults</section >
+                </article>
+
             </main>
             
-            <footer>
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <input name="email" type="email" id="email" placeholder="Subscribe for updates" />
-                    <input type="submit" id="submit" value="Submit" />
-                </form>
-            </footer>
+
         </div>
     </body>
 </html>
