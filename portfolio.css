@@ -101,6 +101,7 @@ main, aside {
     border: 1px solid #282461;
     padding: 1em;
     border-radius: 1em;
+    text-align: center;
 }
 
 .project-tile:first-child {
