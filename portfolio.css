@@ -118,6 +118,20 @@ footer a {
     color: white;
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  #navbar a {
+      text-decoration: none;
+      padding-left: 2em;
+  }
+
 /*** Mobile Styles ***
 ======================*/
 
@@ -125,18 +139,8 @@ footer a {
   html {
     font-size: 75%;
   }
-}
 
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-#navbar a {
-    text-decoration: none;
-    padding-left: 2em;
+  #navbar {
+    width: 100%;
+  }
 }
