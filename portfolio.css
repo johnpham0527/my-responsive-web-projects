@@ -92,7 +92,7 @@ main, aside {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
 }
 
@@ -136,13 +136,17 @@ footer a {
 ======================*/
 
 @media all and (max-width: 480px) {
-  html {
-    font-size: 75%;
-  }
+    html {
+        font-size: 75%;
+    }
 
-  #navbar {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    #navbar {
     width: 100%;
-  }
+    }
 }
 
 @media all and (min-width: 481px) and (max-width: 685px) {
@@ -150,6 +154,10 @@ footer a {
       font-size: 85%;
     }
   
+    .project-container {
+        grid-template-columns: 2fr;
+    }
+
     #navbar {
       width: 100%;
     }
