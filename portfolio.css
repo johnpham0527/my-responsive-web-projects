@@ -51,7 +51,7 @@ header a:visited {
 
 main {
     background-color: #F7F8FA;
-    grid-column: 1 / 10;
+    grid-column: 1 / 11;
 }
 
 main h2, main h3 {
@@ -65,7 +65,7 @@ main h2, main h3 {
 aside {
     background-color: #613524;
     color: white;
-    grid-column: 10 / 13;
+    grid-column: 11 / 13;
 }
 
 aside h2 {
