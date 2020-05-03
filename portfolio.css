@@ -12,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Work Sans", helvetica, arial, sans-serif;
+    max-width: 1200px;
 }
 
 h1, h2 {
@@ -129,7 +130,7 @@ footer a {
 #navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
