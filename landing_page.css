@@ -20,7 +20,7 @@ body {
 
 #header {
     margin-top: 3em;
-    padding: 1em;
+    padding: 1em 1em 1em 0;
     text-align: center;
 }
 
@@ -37,11 +37,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-#navbar a:hover {
-    background: #ddd;
-    color: black;
 }
 
 main {
