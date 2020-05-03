@@ -50,7 +50,7 @@ header a:visited {
 }
 
 main {
-    background: #F7F8FA;
+    background-color: #F7F8FA;
     grid-column: 1 / 10;
 }
 
@@ -63,7 +63,7 @@ main h2, main h3 {
 }
 
 aside {
-    background: #613524;
+    background-color: #613524;
     color: white;
     grid-column: 10 / 13;
 }
@@ -73,7 +73,7 @@ aside h2 {
 }
 
 nav {
-    background: #282461;
+    background-color: #282461;
     color: white;
     text-align: right;
 }
@@ -97,21 +97,19 @@ main, aside {
 }
 
 .project-tile {
-    text-decoration: none;
-    border: 1px solid #282461;
     padding: 1em;
     text-align: center;
+    background-color: #613524;
 }
 
-.project-tile:hover {
-    border: 1px solid #613524;
+.project-tile img {
+    margin-bottom: 1em;
 }
-
 
 .project-tile a {
     text-decoration: none;
+    color: white;
 }
-
 
 .project-tile img {
     margin-top: 1em;
@@ -122,7 +120,7 @@ main, aside {
 }
 
 footer {
-    background: #615424;
+    background-color: #615424;
     grid-column: 1 / 13;
     color: white;
     height: 5vh;
