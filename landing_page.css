@@ -1,8 +1,9 @@
 #header {
+    margin-top: 3em;
     padding: 1em;
 }
 
-.navbar{
+#nav-bar {
     overflow: hidden;
     background-color: #333;
     position: fixed;
@@ -10,7 +11,7 @@
     width: 100%;
 }
 
-.navbar a {
+#nav-bar a {
     float: left;
     display: block;
     color: #f2f2f2;
