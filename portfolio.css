@@ -135,7 +135,7 @@ footer a {
 /*** Mobile Styles ***
 ======================*/
 
-@media (max-width: 300px) {
+@media all and (max-width: 480px) {
   html {
     font-size: 75%;
   }
@@ -144,3 +144,24 @@ footer a {
     width: 100%;
   }
 }
+
+@media all and (min-width: 481px) and (max-width: 685px) {
+    html {
+      font-size: 85%;
+    }
+  
+    #navbar {
+      width: 100%;
+    }
+  }
+
+
+@media all and (min-width: 686px) and (max-width: 1200px) {
+    html {
+      font-size: 100%;
+    }
+  
+    #navbar {
+      width: 100%;
+    }
+  }
