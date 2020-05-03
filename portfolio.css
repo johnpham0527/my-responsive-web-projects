@@ -149,7 +149,6 @@ footer a {
 
 /*** Mobile Styles ***
 ======================*/
-
 @media all and (max-width: 480px) {
     html {
         font-size: 75%;
@@ -164,6 +163,8 @@ footer a {
     }
 }
 
+/*** Tablet Styles ***
+======================*/
 @media all and (min-width: 481px) and (max-width: 685px) {
     html {
       font-size: 85%;
@@ -178,7 +179,8 @@ footer a {
     }
   }
 
-
+/*** Desktop Styles ***
+======================*/
 @media all and (min-width: 686px) and (max-width: 1200px) {
     html {
       font-size: 100%;
