@@ -179,7 +179,7 @@ footer a {
 
 /*** Tablet Styles ***
 ======================*/
-@media all and (min-width: 624px) and (max-width: 843px) {
+@media all and (min-width: 624px) and (max-width: 963px) {
     html {
       font-size: 85%;
     }
@@ -205,7 +205,7 @@ footer a {
 
 /*** Desktop Styles ***
 ======================*/
-@media all and (min-width: 844px) and (max-width: 1200px) {
+@media all and (min-width: 964px) and (max-width: 1200px) {
     html {
       font-size: 100%;
     }
