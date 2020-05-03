@@ -87,7 +87,7 @@ nav h2 {
 }
 
 main, aside {
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
 }
 
 .project-container {
@@ -99,7 +99,7 @@ main, aside {
 .project-tile {
     padding: 1em;
     text-align: center;
-    background-color: #613524;
+    background-color: #282461;
 }
 
 .project-tile img {
@@ -124,6 +124,7 @@ footer {
     grid-column: 1 / 13;
     color: white;
     height: 5vh;
+    grid-row: 4 / 4;
 }
 
 footer a {
@@ -151,6 +152,11 @@ footer a {
         font-size: 75%;
     }
 
+    aside {
+        grid-row: 3 / 3;
+        grid-column: 1 /13;
+    }
+
     .project-container {
         grid-template-columns: 1fr;
     }
@@ -167,6 +173,15 @@ footer a {
       font-size: 85%;
     }
   
+    main {
+        grid-row: 2 / 2;
+    }
+
+    aside {
+        grid-row: 3 / 3;
+        grid-column: 1 /13;
+    }
+
     .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
