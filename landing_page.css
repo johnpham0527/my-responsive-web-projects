@@ -50,6 +50,14 @@ main h1 {
     text-align: center;
 }
 
+#video {
+    text-align: center;
+}
+
+#subscribe {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
