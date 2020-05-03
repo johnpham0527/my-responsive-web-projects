@@ -73,6 +73,10 @@ main article {
 
 #programs {
     text-align: center;
+
+}
+
+#programs-container {
     display: flex;
     flex-direction: row;
 }
