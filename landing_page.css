@@ -55,6 +55,10 @@ main h1 {
     text-align: center;
 }
 
+main article {
+    margin-bottom: 3em;
+}
+
 #video {
     text-align: center;
 }
