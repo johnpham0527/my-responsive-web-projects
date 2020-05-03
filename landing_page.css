@@ -1,6 +1,7 @@
 #header {
     margin-top: 3em;
     padding: 1em;
+    text-align: center;
 }
 
 #nav-bar {
@@ -29,8 +30,8 @@ main {
     background-color: #F7F8FA;
 }
 
-footer {
-    background-color: #615424;
+main h1 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,8 +43,4 @@ footer {
 .flex-container {
     display: flex;
     flex-direction: column;
-}
-
-body {
-text-align: center;
 }
