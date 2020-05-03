@@ -196,6 +196,12 @@ footer a {
 
     .project-container {
         grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2em;
+        grid-column-gap: 3em;
+    }
+
+    .project-tile {
+        padding: auto 0 auto 0;
     }
 
     #navbar {
