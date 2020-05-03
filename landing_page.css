@@ -13,6 +13,11 @@ body {
     max-width: 1200px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 #header {
     margin-top: 3em;
     padding: 1em;
@@ -62,9 +67,4 @@ main h1 {
     body {
         background-color: lightblue;
     }
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
 }
