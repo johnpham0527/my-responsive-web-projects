@@ -88,4 +88,8 @@ main article {
     #programs-container {
         flex-wrap: wrap;
     }
+
+    #video {
+        width: 100%;
+    }
 }
