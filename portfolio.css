@@ -104,6 +104,14 @@ main, aside {
     text-align: center;
 }
 
+.project-tile a {
+    text-decoration: none;
+}
+
+.project-tile img {
+    margin-top: 1em;
+}
+
 .project-tile:first-child {
     margin-left: 0;
 }
