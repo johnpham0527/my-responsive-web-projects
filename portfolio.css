@@ -151,6 +151,12 @@ footer a {
     html {
         font-size: 75%;
     }
+}
+
+@media all and (max-width: 623px) {
+    html {
+        font-size: 85%;
+    }
 
     main {
         grid-row: 2 / 2;
@@ -173,7 +179,7 @@ footer a {
 
 /*** Tablet Styles ***
 ======================*/
-@media all and (min-width: 481px) and (max-width: 843px) {
+@media all and (min-width: 624px) and (max-width: 843px) {
     html {
       font-size: 85%;
     }
