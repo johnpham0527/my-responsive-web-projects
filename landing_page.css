@@ -84,8 +84,8 @@ main article {
     text-align: left;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+@media only screen and (max-width: 680px) {
+    #programs-container {
+        flex-wrap: wrap;
     }
 }
