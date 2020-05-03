@@ -170,7 +170,7 @@ footer a {
     }
   
     .project-container {
-        grid-template-columns: 2fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #navbar {
