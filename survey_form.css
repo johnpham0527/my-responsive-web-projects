@@ -55,7 +55,6 @@ html {
   }
   
   main {
-    background: #F7F8FA;
     flex: 1 1 500px;
     order: 3;
     line-height: 1.5
@@ -103,8 +102,6 @@ html {
     border-radius: 4px;
   }
 
-
-
   textarea {
     padding: 1em 2em;
     margin: auto 2px;
@@ -116,6 +113,12 @@ html {
 
   #title {
     font-size: 1.5em;
+  }
+
+  .form-section {
+    margin: 2em 0;
+    background-color: #F7F8FA;
+    padding: 1em;
   }
 
   .section-title {
