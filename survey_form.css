@@ -63,7 +63,7 @@ html {
 
   .mini-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr repeat(2, minmax(0, 1fr));
     grid-row-gap: 1em;
     grid-column-gap: 1em;
   }
@@ -103,9 +103,7 @@ html {
     border-radius: 4px;
   }
 
-  .form-input, select {
-    width: 55%;
-  }
+
 
   textarea {
     padding: 1em 2em;
@@ -124,13 +122,13 @@ html {
     margin-bottom: 0.33em;
   }
 
-  @media only screen and (max-width: 580px) {
+  @media only screen and (max-width: 500px) {
     .mini-grid {
       grid-template-columns: 1fr;
     }
 
     .form-input, select {
-      width: 55%;
+      width: 20em;
       margin-top: -1em;
     }
   }
