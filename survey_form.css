@@ -101,13 +101,18 @@ html {
     display: inline-block;
     border: 1px solid #cccccc;
     border-radius: 4px;
-
   }
 
   .form-input, select {
     width: 55%;
   }
 
+  textarea {
+    padding: 1em 2em;
+    margin: auto 2px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
 
   #title {
     font-size: 1.5em;
