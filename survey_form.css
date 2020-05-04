@@ -71,6 +71,7 @@ html {
   .first-column {
     grid-column-start: 1;
     grid-column-end: 1;
+    padding-top: 0.5em;
   }
 
   .question {
