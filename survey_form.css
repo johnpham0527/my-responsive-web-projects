@@ -122,4 +122,9 @@ html {
     .mini-grid {
       grid-template-columns: 1fr;
     }
+
+    .form-input, select {
+      width: 55%;
+      margin-top: -1em;
+    }
   }
