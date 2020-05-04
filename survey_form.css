@@ -83,6 +83,16 @@ html {
       line-height: 1.75em;
   }
 
+  input[type=submit] {
+    background-color: #472485;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
   #title {
     font-size: 1.5em;
   }
