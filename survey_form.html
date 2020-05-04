@@ -17,60 +17,68 @@
                 <h1 id="title">Customer Satisfaction Survey</h1>
                 <p id="description">How are our programs and services? We would love to hear from you!</p>
                 <form id="survey-form">
-                    <h2 class="section-title">Personal Information</h2>
-                    <p class="mini-grid">
-                        <span class="first-column">
-                            <label id="name-label" for="name" >What is your name?</label>
-                            <abbr title="required" aria-label="required">*</abbr> 
-                        </span>
-                        <input name="name" id="name" placeholder="Your name" class="form-input" required>
-                        <br>
-                        <label id="email-label" for="email" class="first-column">What is your email address?</label> 
-                        <input name="email" id="email" type="email" placeholder="Your email address" class="form-input" required>
-                        <br>
-                        <span class="first-column">
-                            <label id="number-label" for="age">What is your age?</label>
-                            <abbr title="required" aria-label="required">*</abbr>                    
-                        </span>
-                        <input name="age" id="number" type="number" placeholder="Age" min="0" max="122" class="form-input" required>
-                        <br>
-                        <span class="first-column">Do you live in Queens? </span>
-                        <select id="dropdown" name="live-in-Queens">
-                            <option value="yes-Queens">Yes</option>
-                            <option value="no-Queens">No</option>
-                        </select>
-                    </p>
-
-                    <h2 class="section-title">Programs</h2>
-                    <fieldset>
-                        <legend>Which types of programs do you attend? Check all that apply.</legend>
-                        <input type="checkbox" id="program-children" name="program-children" value="Children">
-                        <label for="program-children">Children</label>
-                        <br>
-                        <input type="checkbox" id="program-teens" name="program-teens" value="Teen">
-                        <label for="program-teens">Teens</label>
-                        <br>
-                        <input type="checkbox" id="program-adults" name="program-adults" value="Adults">
-                        <label for="program-adults">Adults</label>
-                        <br>
-                        <input type="checkbox" id="program-older-adults" name="program-older-adults" value="Older Adults">
-                        <label for="program-older-adults">Older Adults</label>
-                    </fieldset>
-
-                    <h2 class="section-title">Overall Feedback</h2>
-                    <fieldset>
-                        <legend>Overall, how satisfied are you with Queens Public Library?</legend>
-                        <input type="radio" id="highly-satisfied" value="highly-satisfied" name="radio-buttons"><label for="highly-satisfied">Highly satisfied</label><br>
-                        <input type="radio" id="somewhat-satisfied" value="somewhat-satisfied" name="radio-buttons"><label for="somewhat-satisfied">Somewhat satisfied</label><br>
-                        <input type="radio" id="neither" value="neither" name="radio-buttons"><label for="neither">Neither satisfied nor dissatisfied</label><br>
-                        <input type="radio" id="somewhat-dissatisfied" value="somewhat-dissatisfied" name="radio-buttons"><label for="somewhat-dissatisfied">Somewhat dissatisfied</label><br>
-                        <input type="radio" id="highly-dissatisfied" value="highly-dissatisfied" name="radio-buttons"><label for="highly-dissatisfied">Highly dissatisfied</label>
+                    <section class="form-section">
+                        <h2 class="section-title">Personal Information</h2>
+                        <p class="mini-grid">
+                            <span class="first-column">
+                                <label id="name-label" for="name" >What is your name?</label>
+                                <abbr title="required" aria-label="required">*</abbr> 
+                            </span>
+                            <input name="name" id="name" placeholder="Your name" class="form-input" required>
+                            <br>
+                            <label id="email-label" for="email" class="first-column">What is your email address?</label> 
+                            <input name="email" id="email" type="email" placeholder="Your email address" class="form-input" required>
+                            <br>
+                            <span class="first-column">
+                                <label id="number-label" for="age">What is your age?</label>
+                                <abbr title="required" aria-label="required">*</abbr>                    
+                            </span>
+                            <input name="age" id="number" type="number" placeholder="Age" min="0" max="122" class="form-input" required>
+                            <br>
+                            <span class="first-column">Do you live in Queens? </span>
+                            <select id="dropdown" name="live-in-Queens">
+                                <option value="yes-Queens">Yes</option>
+                                <option value="no-Queens">No</option>
+                            </select>
                         </p>
-                    </fieldset>
+                    </section>
 
-                    <p>Please share any additional feedback.<br>
-                        <textarea name="comment"></textarea>
-                    </p>
+                    <section class="form-section">
+                        <h2 class="section-title">Programs</h2>
+                        <fieldset>
+                            <legend>Which types of programs do you attend? Check all that apply.</legend>
+                            <input type="checkbox" id="program-children" name="program-children" value="Children">
+                            <label for="program-children">Children</label>
+                            <br>
+                            <input type="checkbox" id="program-teens" name="program-teens" value="Teen">
+                            <label for="program-teens">Teens</label>
+                            <br>
+                            <input type="checkbox" id="program-adults" name="program-adults" value="Adults">
+                            <label for="program-adults">Adults</label>
+                            <br>
+                            <input type="checkbox" id="program-older-adults" name="program-older-adults" value="Older Adults">
+                            <label for="program-older-adults">Older Adults</label>
+                        </fieldset>
+                    </section>
+
+
+                    <section class="form-section">
+                        <fieldset>
+                            <legend>Overall, how satisfied are you with Queens Public Library?</legend>
+                            <input type="radio" id="highly-satisfied" value="highly-satisfied" name="radio-buttons"><label for="highly-satisfied">Highly satisfied</label><br>
+                            <input type="radio" id="somewhat-satisfied" value="somewhat-satisfied" name="radio-buttons"><label for="somewhat-satisfied">Somewhat satisfied</label><br>
+                            <input type="radio" id="neither" value="neither" name="radio-buttons"><label for="neither">Neither satisfied nor dissatisfied</label><br>
+                            <input type="radio" id="somewhat-dissatisfied" value="somewhat-dissatisfied" name="radio-buttons"><label for="somewhat-dissatisfied">Somewhat dissatisfied</label><br>
+                            <input type="radio" id="highly-dissatisfied" value="highly-dissatisfied" name="radio-buttons"><label for="highly-dissatisfied">Highly dissatisfied</label>
+                            </p>
+                        </fieldset>
+    
+                        <p>Please share any additional feedback.<br>
+                            <textarea name="comment"></textarea>
+                        </p>
+                    </section>
+                    <h2 class="section-title">Overall Feedback</h2>
+
 
                     <input type="submit" id="submit" value="Submit Your Response">
                 </form>
