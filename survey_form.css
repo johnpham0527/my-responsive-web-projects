@@ -23,14 +23,19 @@ html {
   header {
     background: white;
     color: white;
-    flex: 1 0 100%;
+    flex: 1 1 100%;
     order: 1;
+  }
+
+  header img {
+    max-width: 100%;
+    height: auto;
   }
   
   footer {
     background: #282461;
     color: white;
-    flex: 1 0 100%;
+    flex: 1 1 100%;
     order: 5;
   }
   
@@ -42,7 +47,7 @@ html {
   /* Container and Main
   ====================*/
   .container > * {
-    padding: 20px;
+    padding: 1em;
   }
   
   .container {
@@ -131,13 +136,13 @@ html {
     margin-bottom: 0.33em;
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 525px) {
     .mini-grid {
       grid-template-columns: 1fr;
     }
 
     .form-input {
-      width: 20em;
+      width: 18em;
       margin-top: -1em;
     }
   }
