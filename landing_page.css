@@ -56,6 +56,16 @@ main article {
     margin-bottom: 3em;
 }
 
+input[type=submit] {
+    background-color: #472485;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 #preview {
     text-align: center;
 }
