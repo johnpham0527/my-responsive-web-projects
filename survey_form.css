@@ -91,7 +91,16 @@ html {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-}
+  }
+
+  .form-input {
+    padding: 1em 2em;
+    margin: auto 2px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+
 
   #title {
     font-size: 1.5em;
