@@ -68,6 +68,7 @@ html {
   #survey-form {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -2em;
   }
 
   .mini-grid {
