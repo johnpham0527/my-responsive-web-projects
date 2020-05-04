@@ -50,12 +50,12 @@ html {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    max-width: 880px;
+    max-width: 1200px;
     margin: auto;
   }
   
   main {
-    flex: 1 1 500px;
+    flex: 1 1 100%;
     order: 3;
     line-height: 1.5
   }
