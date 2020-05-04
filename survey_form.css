@@ -110,6 +110,8 @@ html {
     margin: auto 2px;
     border: 1px solid #cccccc;
     border-radius: 4px;
+    height: 6em;
+    width: 65%;
   }
 
   #title {
