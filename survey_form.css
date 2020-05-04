@@ -136,7 +136,7 @@ html {
       grid-template-columns: 1fr;
     }
 
-    .form-input, {
+    .form-input {
       width: 20em;
       margin-top: -1em;
     }
