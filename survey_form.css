@@ -130,10 +130,14 @@ html {
   }
 
   .form-section {
-    flex: 1 1 240px;
+    flex: 1 1 250px;
     margin: 2em 2em 2em 0;
     background-color: #F7F8FA;
     padding: 1em;
+  }
+
+  .form-submit {
+    flex: 0 0 100%;
   }
 
   .section-title {
