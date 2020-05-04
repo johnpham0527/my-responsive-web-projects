@@ -63,7 +63,7 @@ html {
 
   .mini-grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 1em;
     grid-column-gap: 1em;
   }
@@ -122,7 +122,7 @@ html {
     margin-bottom: 0.33em;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 400px) {
     .mini-grid {
       grid-template-columns: 1fr;
     }
