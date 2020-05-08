@@ -218,6 +218,10 @@ nav h2 {
         padding: auto 0 auto 0;
     }
 
+    .project-tile-image {
+        flex: 1 1 auto;
+    }
+
     #navbar {
       width: 100%;
     }
