@@ -74,6 +74,10 @@ main h2, main h3 {
     color: #282461;
 }
 
+h3 {
+    margin-top: 2em;
+}
+
 .date {
     font-size: 0.75em;
 }
