@@ -26,6 +26,7 @@ li, p {
 .container > * {
     padding: 20px;
 }
+
 .container {
     color: #2F3040;
     display: grid;
@@ -161,6 +162,14 @@ nav h2 {
 @media all and (max-width: 480px) {
     html {
         font-size: 75%;
+    }
+
+    .container > * {
+        padding: 20px;
+    }
+
+    .project-tile {
+        width: 100%;
     }
 }
 
