@@ -168,6 +168,10 @@ nav h2 {
         padding: 20px;
     }
 
+    .project-container {
+        margin: auto -1.5em;
+    }
+
     .project-tile {
         width: 100%;
     }
