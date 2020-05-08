@@ -114,11 +114,8 @@ main, aside {
     justify-content: center;
 }
 
-.project-tile img {
+.project-tile-image {
     margin-bottom: 1em;
-}
-
-.project-tile img {
     margin-top: 1em;
 }
 
@@ -174,6 +171,14 @@ nav h2 {
 
     .project-tile {
         width: 100%;
+    }
+
+    .project-tile-image {
+        flex: 0 0 200px;
+    }
+
+    .project-tile-text {
+        flex: 0 0 100%;
     }
 }
 
