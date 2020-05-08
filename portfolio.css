@@ -197,6 +197,10 @@ nav h2 {
         grid-template-columns: 1fr;
     }
 
+    .project-tile-text {
+        flex: 0 0 100%;
+    }
+
     #navbar {
     width: 100%;
     }
