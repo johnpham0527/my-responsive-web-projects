@@ -106,18 +106,15 @@ main, aside {
     padding: 1em;
     text-align: center;
     background-color: #282461;
-}
-
-.project-tile img {
-    margin-bottom: 1em;
-}
-
-.project-tile a {
     text-decoration: none;
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.project-tile img {
+    margin-bottom: 1em;
 }
 
 .project-tile img {
@@ -220,6 +217,10 @@ nav h2 {
 
     .project-tile-image {
         flex: 1 1 auto;
+    }
+
+    .project-tile-text {
+        flex: 0 0 auto;
     }
 
     #navbar {
