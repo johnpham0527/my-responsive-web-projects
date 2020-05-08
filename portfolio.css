@@ -173,10 +173,6 @@ nav h2 {
         width: 100%;
     }
 
-    .project-tile-image {
-        flex: 0 0 200px;
-    }
-
     .project-tile-text {
         flex: 0 0 100%;
     }
@@ -231,10 +227,6 @@ nav h2 {
 
     .project-tile {
         padding: auto 0 auto 0;
-    }
-
-    .project-tile-image {
-        flex: 1 1 auto;
     }
 
     .project-tile-text {
