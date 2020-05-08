@@ -90,7 +90,6 @@ input[type=submit] {
 
 #programs {
     text-align: center;
-
 }
 
 #programs-container {
@@ -108,6 +107,11 @@ input[type=submit] {
 @media only screen and (max-width: 680px) {
     #programs-container {
         flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    #programs {
+        text-align: left;
     }
 
     #video {
