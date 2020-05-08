@@ -115,6 +115,9 @@ main, aside {
 .project-tile a {
     text-decoration: none;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-tile img {
