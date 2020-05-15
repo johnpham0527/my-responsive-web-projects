@@ -119,6 +119,10 @@ main, aside {
     margin-top: 1em;
 }
 
+.project-tile-text {
+    flex: 0 0 100%;
+}
+
 .project-tile:first-child {
     margin-left: 0;
 }
