@@ -65,6 +65,9 @@ main {
   line-height: 1.5
 }
 
+
+/* Navbar
+====================*/
 #navbar {
     position: fixed;
     min-width: 290px;
