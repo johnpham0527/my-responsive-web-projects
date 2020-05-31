@@ -25,8 +25,10 @@ h1, h2 {
 .container {
   color: #2F3040;
   font-family: 'Open Sans', sans-serif;
+  /*
   display: flex;
   flex-wrap: wrap;
+  */
   max-width: 1200px;
   margin: auto;
 }
@@ -36,8 +38,10 @@ h1, h2 {
 header {
   background: white;
   color: black;
+  /*
   flex: 1 1 100%;
   order: 1;
+  */
 }
 
 header img {
@@ -48,8 +52,10 @@ header img {
 footer {
   background: #282461;
   color: white;
+  /*
   flex: 1 1 100%;
   order: 5;
+  */
 }
 
 footer a {
@@ -59,17 +65,14 @@ footer a {
 
 /* Main
 ====================*/
-main {
-  flex: 1 1 100%;
-  order: 3;
-  line-height: 1.5
-}
-
 #main-doc {
+  /*
   position: absolute;
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px;
+  */
+  line-height: 1.5
 }
 
 .main-section {
@@ -117,7 +120,7 @@ main {
 @media only screen and (max-width: 320px) {
 
 }
-
+/*
 @media only screen and (max-width: 815px) {
     #navbar {
       position: absolute;
@@ -131,3 +134,4 @@ main {
       border-bottom: 2px solid;
     }
   }
+  */
