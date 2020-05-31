@@ -35,7 +35,7 @@ h1, h2 {
 ====================*/
 header {
   background: white;
-  color: white;
+  color: black;
   flex: 1 1 100%;
   order: 1;
 }
@@ -115,7 +115,7 @@ main {
 /* Media Query
 ====================*/
 @media only screen and (max-width: 320px) {
-  
+
 }
 
 @media only screen and (max-width: 815px) {
