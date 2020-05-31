@@ -114,6 +114,10 @@ main {
 
 /* Media Query
 ====================*/
+@media only screen and (max-width: 320px) {
+  
+}
+
 @media only screen and (max-width: 815px) {
     #navbar {
       position: absolute;
