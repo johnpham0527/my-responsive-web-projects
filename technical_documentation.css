@@ -66,7 +66,10 @@ main {
 }
 
 #main-doc {
-
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
 }
 
 .main-section {
@@ -86,35 +89,28 @@ main {
     border-color: rgba(0, 22, 22, 0.4);
   }
   
-  #navbar header {
-    padding: 1em 0 1em 0.5em;
-  }
+#navbar header {
+  padding: 1em 0 1em 0.5em;
+}
   
-  #navbar a {
-    display: block;
-    padding: 10px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    color: #333333;
-    border: 1px solid #333333;
-    border-left: none;
-    border-right: none;
-  }
+#navbar a + a {
+  border-top: none;
+}
   
-  #navbar a + a {
-    border-top: none;
-  }
+#navbar a:last-child {
+  border-bottom: none;
+}
   
-  #navbar a:last-child {
-    border-bottom: none;
-  }
-  
-  #main-doc {
-    position: absolute;
-    margin-left: 310px;
-    padding: 20px;
-    margin-bottom: 110px;
-  }
+.nav-link {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333333;
+  border: 1px solid #333333;
+  border-left: none;
+  border-right: none;
+}
 
 /* Media Query
 ====================*/
