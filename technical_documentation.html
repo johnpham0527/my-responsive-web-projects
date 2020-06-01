@@ -28,6 +28,35 @@
                 </header>
                 <p>All routes return JSON data or error codes as strings.</p>
             </section>
+            <section class="main-section">
+                <header>
+                    <h2>Schemas</h2>
+                </header>
+                <article>
+                    <h3>Library</h3>
+                    <code>
+                        const Library = new Schema({
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;// schema fields here 
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;name: { type: String, required: true },
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;address: { type: String, required: true },
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;programs: {
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: [Schema.Types.ObjectId], required: true, refPath: "programs"
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;}
+                        <br>
+                        }, {
+                        <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;timestamps: true
+                        <br>
+                        })
+                    </code>
+                </article>
+            </section>
         </main>
         <!--
         <nav id="navbar">
