@@ -109,6 +109,18 @@
                 <header>
                     <h2>Errors</h2>
                 </header>
+                <p>QUERY uses conventional HTTP response codes to indicate the success or failure of an API request.
+                    Codes in the <code>2xx</code> range indicate success. 
+                    Codes in the <code>4xx</code> range indicate an error that failed given the information provided, such as a missing required parameter.
+                    Codes in the <code>5xx</code> range indicate an error with QUERY's servers.
+                </p>
+                <ul>
+                    <li><code>200 - OK</code> - the API has worked as expected</li>
+                    <li><code>400 - Bad Request</code> - the request has not worked due to a missing required parameter</li>
+                    <li><code>402 - Request Failed</code> - the parameters were valid, but the request failed</li>
+                    <li><code>404 - Not Found</code> - the requested resource doesn't exist</li>
+                    <li><code>500 - Server Error</code> - something went wrong on QUERY's end</li>
+                </ul>
             </section>
             <section class="main-section" id="Handling_Errors">
                 <header>
