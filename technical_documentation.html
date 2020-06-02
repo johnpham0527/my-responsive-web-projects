@@ -46,8 +46,18 @@
                 <article>
                     <h3>Programs</h3>
                     <ul>
-                        <li><code>GET /libraries/name/:libraryName</code> - get all the programs hosted by that library, as an array. the name finder is case insensitive, but in the url spaces should be replaced with dashes '-' or underscores '_'</li>
-                        <li><code>GET /libraries/id/:libraryId</code> - get all the program hosted by that library, as an array</li>
+                        <li>
+                            <code>GET /libraries/name/:libraryName</code> - get all the programs hosted by that library, as an array. the name finder is case insensitive, but in the url spaces should be replaced with dashes '-' or underscores '_'
+                            <ul>
+                                <li>Can set limit in number of records returned in the URL: <code>/libraries/name/:libraryName?limit=5</code></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <code>GET /libraries/id/:libraryId</code> - get all the programs hosted by that library, as an array
+                            <ul>
+                                <li>Can set limit in number of records returned in the URL: <code>/libraries/id/:libraryId?limit=5</code></li>
+                            </ul>
+                        </li>
                         <li><code>POST /libraries/new</code> - make a new program in the database (the id needs to point to an existing library in the db but it will fill in the correct library name)</li>
                         <li><code>PUT /libraries/edit/:id</code> - edit a program called by its id. see schema of Program for more details</li>
                         <li><code>DELETE /libraries/delete/:id</code> - delete a program called by its id</li>
