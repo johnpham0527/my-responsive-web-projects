@@ -25,58 +25,28 @@ h1, h2 {
 .container {
   color: #2F3040;
   font-family: 'Open Sans', sans-serif;
-  /*
   display: flex;
   flex-wrap: wrap;
-  */
   max-width: 1200px;
   margin: auto;
 }
 
-/* Header and Footer
+/* Header and Main
 ====================*/
-header {
-  background: white;
-  color: black;
-  /*
-  flex: 1 1 100%;
-  order: 1;
-  */
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  background: #282461;
-  color: white;
-  /*
-  flex: 1 1 100%;
-  order: 5;
-  */
-}
-
-footer a {
-  color: white;
-}
-
-
-/* Main
-====================*/
-#main-doc {
-  /*
-  position: absolute;
+#header-doc, #main-doc {
   margin-left: 310px;
   padding: 20px;
-  margin-bottom: 110px;
-  */
-  line-height: 1.5
 }
 
-.main-section {
+#header-doc {
+  flex: 1 1 100%;
+  order: 2;
+}
 
+#main-doc {
+  flex: 1 1 100%;
+  order: 3;
+  line-height: 1.5
 }
 
 /* Navbar
@@ -120,18 +90,3 @@ footer a {
 @media only screen and (max-width: 320px) {
 
 }
-/*
-@media only screen and (max-width: 815px) {
-    #navbar {
-      position: absolute;
-      top: 0;
-      padding: 0;
-      margin: 0;
-      width: 100%;
-      max-height: 275px;
-      border: none;
-      z-index: 1;
-      border-bottom: 2px solid;
-    }
-  }
-  */
