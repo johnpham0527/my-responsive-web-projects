@@ -33,14 +33,11 @@ h1, h2 {
 
 /* Header and Main
 ====================*/
-#header-doc, #main-doc {
-  margin-left: 310px;
-  padding: 20px;
-}
+
 
 #header-doc {
   flex: 1 1 100%;
-  order: 2;
+  order: 1;
 }
 
 #main-doc {
@@ -52,14 +49,9 @@ h1, h2 {
 /* Navbar
 ====================*/
 #navbar {
-    position: fixed;
-    min-width: 290px;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 100%;
-    border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
+  border-color: rgba(0, 22, 22, 0.4);
+  flex: 1 1 100%;
+  order: 2;
   }
   
 #navbar header {
@@ -87,6 +79,20 @@ h1, h2 {
 
 /* Media Query
 ====================*/
-@media only screen and (max-width: 320px) {
 
+@media all and (min-width: 760px) {
+  #navbar {
+    border-right: solid;
+    position: fixed;
+    min-width: 270px;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 100%;
+  }
+
+  #header-doc, #main-doc {
+    margin-left: 300px;
+    padding: 20px;
+  }
 }
