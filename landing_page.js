@@ -7,6 +7,7 @@
     let sectionHeadings = programsContainer.children;
     //console.log(sectionHeadings);
     for (let i = 0; i < sectionHeadings.length; i++) {
-        console.log(sectionHeadings[i].children[0].innerText);
+        let currentString = sectionHeadings[i].children[0].innerText;
+        console.log(currentString);
     }
 })();
