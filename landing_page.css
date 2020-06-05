@@ -54,10 +54,12 @@ main {
 
 main h1 {
     text-align: center;
+    font-size: 2.618em;
 }
 
 main h2 {
     margin-bottom: 0.5em;
+    font-size: 1.618em;
 }
 
 main article {
