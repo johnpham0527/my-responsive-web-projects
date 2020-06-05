@@ -8,7 +8,7 @@
         let currentString = sections[i].children[0].innerText; //access each section h3 heading text
         let currentStringUnderscores = currentString.replace(" ", "_"); //replace spaces with underscores
         let linkTag = document.createElement("a"); //create link tag
-        linkTag.innerHTML = '<a href="#' + currentStringUnderscores + '">' + currentString + '</a>'; //create HTML for link
+        linkTag.innerHTML = '<a href="#' + currentStringUnderscores + '" class="nav-link">' + currentString + '</a>'; //create HTML for link
         navBar.appendChild(linkTag); //append link tag to the navigation bar
     }
 })();
