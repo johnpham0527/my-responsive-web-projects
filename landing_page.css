@@ -106,7 +106,8 @@ input[type=submit] {
 }
 
 .visit-image {
-    max-width: 100%;
+    max-width: 640px;
+    width: 100%;
     height: auto;
 }
 
