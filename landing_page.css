@@ -98,11 +98,11 @@ input[type=submit] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 }
 
 #plan {
-    text-align: left;
+    text-align: center;
 }
 
 .visit-image {
