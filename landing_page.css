@@ -121,3 +121,9 @@ input[type=submit] {
         width: 100%;
     }
 }
+
+@media all and (max-width: 500px) {
+    #visit-container section p {
+        font-size: 75%;
+    }
+}
