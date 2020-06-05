@@ -126,4 +126,8 @@ input[type=submit] {
     #visit-container section p {
         font-size: 75%;
     }
+
+    #nav-bar a {
+        font-size: 80%;
+    }
 }
