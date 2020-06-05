@@ -64,6 +64,7 @@ main h2 {
 
 main article {
     margin-bottom: 3em;
+    line-height: 1.618em;
 }
 
 input[type=email]{
