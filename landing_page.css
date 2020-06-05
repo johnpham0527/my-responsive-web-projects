@@ -105,6 +105,11 @@ input[type=submit] {
     text-align: left;
 }
 
+.visit-image {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Media Query
 ====================*/
 @media all and (max-width: 680px) {

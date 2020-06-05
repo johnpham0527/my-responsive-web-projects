@@ -1,7 +1,7 @@
 "use strict";
 
 (function () {
-    let programsContainer = document.querySelector("#programs-container"); //look for programs-container ID
+    let programsContainer = document.querySelector("#visit-container"); //look for programs-container ID
     let navBar = document.querySelector("#nav-bar");
     let sections = programsContainer.children; //access the HTML collection that contains the sections
     for (let i = 0; i < sections.length; i++) {
